@@ -1,5 +1,4 @@
 {
-  "$schema": "https://schemas.tokens.studio/latest/schema.json",
   "base": {
     "color": {
       "primary": {
@@ -138,12 +137,66 @@
       }
     }
   },
+  "base-c": {
+    "card": {
+      "secondary": {
+        "color": {
+          "value": "#b01818",
+          "type": "color"
+        }
+      },
+      "padding": {
+        "value": "12px 24px",
+        "type": "spacing"
+      },
+      "default": {
+        "fonts": {
+          "value": "12px",
+          "type": "fontFamilies"
+        }
+      },
+      "tertiary": {
+        "color": {
+          "value": "#4ea623",
+          "type": "color"
+        }
+      }
+    }
+  },
+  "base-d": {
+    "card": {
+      "secondary": {
+        "color": {
+          "value": "#b01818",
+          "type": "color"
+        }
+      },
+      "padding": {
+        "value": "12px 24px",
+        "type": "spacing"
+      },
+      "default": {
+        "fonts": {
+          "value": "12px",
+          "type": "fontFamilies"
+        }
+      },
+      "tertiary": {
+        "color": {
+          "value": "#4ea623",
+          "type": "color"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "base",
       "base-b",
-      "base-a"
+      "base-a",
+      "base-c",
+      "base-d"
     ]
   }
 }

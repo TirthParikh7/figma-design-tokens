@@ -28,4 +28,12 @@
   --base-a-card-default-border-color: #007BFF;
   --base-a-card-default-border-width: 2px;
   --base-a-card-default-border-style: solid;
+  --base-c-card-secondary-color: #b01818;
+  --base-c-card-padding: 12px 24px;
+  --base-c-card-default-fonts: 12px;
+  --base-c-card-tertiary-color: #4ea623;
+  --base-d-card-secondary-color: #b01818;
+  --base-d-card-padding: 12px 24px;
+  --base-d-card-default-fonts: 12px;
+  --base-d-card-tertiary-color: #4ea623;
 }
