@@ -32,6 +32,6 @@ jobs:
         run: |
           git config --global user.name "TirthParikh7"
           git config --global user.email "tirth@contentenablers.com"
-          git add output/fixed-token.css
+          git add output/fixed-tokens.css
           git diff --quiet && git diff --staged --quiet || git commit -m "Updated fixed-token.css"
           git push
