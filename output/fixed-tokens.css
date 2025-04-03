@@ -1,0 +1,31 @@
+.fixed-tokens-theme {
+  --base-color-primary: #007BFF;
+  --base-color-secondary: #6C757D;
+  --base-color-success: #28A745;
+  --base-spacing-button-padding: 12px 24px;
+  --base-spacing-button-border-radius: 8px;
+  --base-button-default-border-color: #007BFF;
+  --base-button-default-border-width: 2px;
+  --base-button-default-border-style: solid;
+  --base-button-default-background-color: #007BFF;
+  --base-button-default-text-color: #FFFFFF;
+  --base-button-default-padding: 12px 24px;
+  --base-button-default-border-radius: 8px;
+  --base-button-secondary-border-color: #6C757D;
+  --base-button-secondary-border-width: 2px;
+  --base-button-secondary-border-style: solid;
+  --base-button-secondary-background-color: #6C757D;
+  --base-button-secondary-text-color: #FFFFFF;
+  --base-button-outline-border-color: #007BFF;
+  --base-button-outline-border-width: 2px;
+  --base-button-outline-border-style: solid;
+  --base-button-outline-background-color: transparent;
+  --base-typography-button-font-size: 16px;
+  --base-typography-button-font-weight-fontWeight: 600;
+  --base-typography-button-letterspacing-letterSpacing: 0.5px;
+  --base-b-button-default-background-color: #ffff00;
+  --base-b-button-primary-padding: 4px 12px;
+  --base-a-card-default-border-color: #007BFF;
+  --base-a-card-default-border-width: 2px;
+  --base-a-card-default-border-style: solid;
+}

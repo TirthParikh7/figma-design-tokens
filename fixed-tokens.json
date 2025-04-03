@@ -1,0 +1,149 @@
+{
+  "$schema": "https://schemas.tokens.studio/latest/schema.json",
+  "base": {
+    "color": {
+      "primary": {
+        "value": "#007BFF",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#6C757D",
+        "type": "color"
+      },
+      "success": {
+        "value": "#28A745",
+        "type": "color"
+      }
+    },
+    "spacing": {
+      "button": {
+        "padding": {
+          "value": "12px 24px",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "8px",
+          "type": "borderRadius"
+        }
+      }
+    },
+    "button": {
+      "default": {
+        "border": {
+          "value": {
+            "color": "{base.color.primary}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "backgroundColor": {
+          "value": "{base.color.primary}",
+          "type": "color"
+        },
+        "textColor": {
+          "value": "#FFFFFF",
+          "type": "opacity"
+        },
+        "padding": {
+          "value": "{base.spacing.button.padding}",
+          "type": "spacing"
+        },
+        "borderRadius": {
+          "value": "{base.spacing.button.borderRadius}",
+          "type": "borderRadius"
+        }
+      },
+      "secondary": {
+        "border": {
+          "value": {
+            "color": "{base.color.secondary}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "backgroundColor": {
+          "value": "{base.color.secondary}",
+          "type": "color"
+        },
+        "textColor": {
+          "value": "#FFFFFF",
+          "type": "opacity"
+        }
+      },
+      "outline": {
+        "border": {
+          "value": {
+            "color": "{base.color.primary}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        },
+        "backgroundColor": {
+          "value": "transparent",
+          "type": "color"
+        }
+      }
+    },
+    "typography": {
+      "button": {
+        "fontSize": {
+          "value": "16px",
+          "type": "sizing"
+        },
+        "fontWeight": {
+          "value": {
+            "fontWeight": "600"
+          },
+          "type": "typography"
+        },
+        "letterspacing": {
+          "value": {
+            "letterSpacing": "0.5px"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  },
+  "base-b": {
+    "button": {
+      "default": {
+        "backgroundColor": {
+          "value": "#ffff00",
+          "type": "color"
+        }
+      },
+      "primary": {
+        "padding": {
+          "value": "4px 12px",
+          "type": "spacing"
+        }
+      }
+    }
+  },
+  "base-a": {
+    "card": {
+      "default": {
+        "border": {
+          "value": {
+            "color": "{base.button.default.backgroundColor}",
+            "width": "2px",
+            "style": "solid"
+          },
+          "type": "border"
+        }
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "base",
+      "base-b",
+      "base-a"
+    ]
+  }
+}
