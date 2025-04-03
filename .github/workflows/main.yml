@@ -29,9 +29,11 @@ jobs:
         run: node build.cjs
 
       - name: Commit and push if changed
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
         run: |
-          git config --global user.name "TirthParikh7"
-          git config --global user.email "tirth@contentenablers.com"
-          git add output/fixed-tokens.css
-          git diff --quiet && git diff --staged --quiet || git commit -m "Updated fixed-token.css"
-          git push
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+          git add .
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update from tokens.json changes"
+          git push https://x-access-token:${{ secrets.GH_PAT }}@github.com/TirthParikh7/figma-design-tokens.git
