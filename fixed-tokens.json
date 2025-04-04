@@ -189,6 +189,16 @@
       }
     }
   },
+  "button-varient": {
+    "button": {
+      "var": {
+        "borderRadius": {
+          "value": "10px",
+          "type": "borderRadius"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -196,7 +206,8 @@
       "base-b",
       "base-a",
       "base-c",
-      "base-d"
+      "base-d",
+      "button-varient"
     ]
   }
 }
