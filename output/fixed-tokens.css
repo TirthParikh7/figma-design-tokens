@@ -45,4 +45,15 @@
   --base-d-card-tertiary-color: #4ea623;
   --button-varient-button-primary-fill: #007BFF;
   --button-varient-button-primary-padding: 20px 100px;
+  --card-primary-padding: 10px 12px;
+  --card-primary-content-padding: 10px 8 px;
+  --card-primary-title-padding: 10px 10px;
+  --card-primary-title-color: #007BFF;
+  --card-primary-border-radius: 10px;
+  --card-primary-background-color: #28A745;
+  --card-primary-width: 300px;
+  --card-primary-height: 400px;
+  --card-primary-border-color: #007BFF;
+  --card-primary-border-width: 2px;
+  --card-primary-border-style: solid;
 }

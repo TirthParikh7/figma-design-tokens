@@ -222,6 +222,55 @@
       }
     }
   },
+  "yz": {},
+  "card": {
+    "primary": {
+      "padding": {
+        "value": "10px 12px",
+        "type": "spacing"
+      },
+      "content": {
+        "padding": {
+          "value": "10px 8 px",
+          "type": "spacing"
+        }
+      },
+      "title": {
+        "padding": {
+          "value": "10px 10px",
+          "type": "spacing"
+        },
+        "color": {
+          "value": "{base.color.primary}",
+          "type": "color"
+        }
+      },
+      "borderRadius": {
+        "value": "10px",
+        "type": "borderRadius"
+      },
+      "backgroundColor": {
+        "value": "{base.color.success}",
+        "type": "color"
+      },
+      "width": {
+        "value": "300px",
+        "type": "dimension"
+      },
+      "height": {
+        "value": "400px",
+        "type": "dimension"
+      },
+      "border": {
+        "value": {
+          "color": "{base.button.default.backgroundColor}",
+          "width": "2px",
+          "style": "solid"
+        },
+        "type": "border"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -230,7 +279,9 @@
       "base-a",
       "base-c",
       "base-d",
-      "button-varient"
+      "button-varient",
+      "yz",
+      "card"
     ]
   }
 }
