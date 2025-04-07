@@ -29,12 +29,20 @@
   --base-a-card-default-border-width: 2px;
   --base-a-card-default-border-style: solid;
   --base-c-card-secondary-color: #b01818;
+  --base-c-card-secondary-typography-fontFamily: ADLaM Display;
+  --base-c-card-secondary-typography-fontWeight: 20px;
+  --base-c-card-secondary-typography-fontSize: 2px;
+  --base-c-card-secondary-typography-lineHeight: 1px;
+  --base-c-card-secondary-typography-letterSpacing: 1px;
+  --base-c-card-secondary-typography-paragraphSpacing: 10px;
   --base-c-card-padding: 12px 24px;
   --base-c-card-default-fonts: 12px;
   --base-c-card-tertiary-color: #4ea623;
+  --base-c-color-button-primary: #fff00f;
   --base-d-card-secondary-color: #b01818;
   --base-d-card-padding: 12px 24px;
   --base-d-card-default-fonts: 12px;
   --base-d-card-tertiary-color: #4ea623;
-  --button-varient-button-var-border-radius: 10px;
+  --button-varient-button-primary-fill: #007BFF;
+  --button-varient-button-primary-padding: 20px 100px;
 }
