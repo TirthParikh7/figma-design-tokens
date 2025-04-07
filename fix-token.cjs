@@ -4,6 +4,11 @@ const fs = require("fs");
 const rawData = fs.readFileSync("tokens.json", "utf-8");
 let tokens = JSON.parse(rawData);
 
+// Match all references like {color.*}, {spacing.*}, {button.*}, etc.
+const referenceFixer = (value) => {
+  return value.replace(/\{(?!base\.)([a-zA-Z0-9_.]+)\}/g, `{base.$1}`);
+};
+
 // Function to recursively update references
 const updateReferences = (obj, prefix = "base") => {
   if (typeof obj !== "object" || obj === null) return;
@@ -14,9 +19,7 @@ const updateReferences = (obj, prefix = "base") => {
     } else if (typeof obj[key] === "string") {
       // Fix reference errors
       obj[key] = obj[key]
-        .replace(/{color\./g, `{base.color.`)
-        .replace(/{spacing\./g, `{base.spacing.`)
-        .replace(/{button\.default\.backgroundColor}/g, `{base.button.default.backgroundColor}`);
+      obj[key] = referenceFixer(obj[key]);
     }
   }
 };
