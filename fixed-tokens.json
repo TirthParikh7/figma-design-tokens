@@ -271,6 +271,14 @@
       }
     }
   },
+  "table": {
+    "primary": {
+      "color": {
+        "value": "#ff0000",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -281,7 +289,8 @@
       "base-d",
       "button-varient",
       "yz",
-      "card"
+      "card",
+      "table"
     ]
   }
 }
