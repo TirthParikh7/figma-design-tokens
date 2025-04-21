@@ -287,6 +287,14 @@
       }
     }
   },
+  "test": {
+    "color": {
+      "primary": {
+        "value": "#a82929",
+        "type": "color"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -298,7 +306,8 @@
       "button-varient",
       "yz",
       "card",
-      "table"
+      "table",
+      "test"
     ]
   }
 }
