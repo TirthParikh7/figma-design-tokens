@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'output/fixed-token.css'
+      - 'tokens.json'
 
 jobs:
   trigger:
