@@ -295,6 +295,14 @@
       }
     }
   },
+  "card-test": {
+    "primary": {
+      "padding": {
+        "value": "10px",
+        "type": "spacing"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -307,7 +315,8 @@
       "yz",
       "card",
       "table",
-      "test"
+      "test",
+      "card-test"
     ]
   }
 }

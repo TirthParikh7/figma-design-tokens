@@ -60,4 +60,5 @@
   --card-primary-border-style: solid;
   --table-primary-color: #ff0000;
   --test-color-primary: #a82929;
+  --card-test-primary-padding: 10px;
 }
