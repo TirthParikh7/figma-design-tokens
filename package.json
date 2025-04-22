@@ -12,12 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^1.8.4",
     "dotenv": "^16.4.7",
     "figma-tokens": "^0.0.8",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.3.0",
-    "style-dictionary": "^3.7.1",
-    "token-transformer": "^0.0.33"
+    "style-dictionary": "^3.7.1"
   }
 }
