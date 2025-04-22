@@ -12,7 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.4.7",
     "figma-tokens": "^0.0.8",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.3.0",
