@@ -1,16 +1,1 @@
-{
-  "base": {
-    "primary": {
-      "color": {
-        "value": "#d92828",
-        "type": "color"
-      }
-    }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "base"
-    ]
-  }
-}
+{}
